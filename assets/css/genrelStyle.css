@@ -1,21 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 /*DESKTOP STYLING*/
 
-/* SIZES */
---textSize: 16px;
---h1Size: 40px;
---h2Size:24px;
+:root {
+    /* SIZES */
+    --textSize: 16px;
+    --h1Size: 40px;
+    --h2Size: 24px;
 
 
-
-/* COLOURS */
---black:#1f1b1c;
---red:#ee202d;
---white:#ffffff;
---grey:#3c3c3c;
-
-/* TYPOGRAPHY */
+    /* COLOURS */
+    --black: #1F1B1C;
+    --red: #ee202d;
+    --white: #ffffff;
+    --grey: #3c3c3c;
 
 
+    /* TYPOGRAPHY */
+    --tekstFont: 'Montserrat', arial, sans-serif;
+}
+
+
+/* BODY */
+body {
+    font-family: var(--tekstFont);
+}
 
 
 /* HEADER */
@@ -31,11 +39,17 @@ body {
 
 
 /*MOBILE STYLING*/
-@media (max-width: px)
-/* SIZES */
---textSize: 16px;
---h1Size: 32px;
---h2Size: 20px;
+@media (max-width: px) {
+
+    /* SIZES */
+    :root {
+
+        --textSize: 16px;
+        --overskriftSize: 32px;
+        --underoverskriftSize: 20px;
+    }
+
+}
 
 /* HEADER */
 /* FOOTER */

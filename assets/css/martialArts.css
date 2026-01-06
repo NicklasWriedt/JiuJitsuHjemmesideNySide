@@ -1,17 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 /*DESKTOP STYLING*/
 
-/* SIZES */
-/* COLOURS */
-/* TYPOGRAPHY */
+:root {
+    /* SIZES */
+    --textSize: 16px;
+    --h1Size: 40px;
+    --h2Size: 24px;
+
+
+    /* COLOURS */
+    --black: #1F1B1C;
+    --red: #ee202d;
+    --white: #ffffff;
+    --grey: #3c3c3c;
+
+
+    /* TYPOGRAPHY */
+    --tekstFont: 'Montserrat', arial, sans-serif;
+}
 
 
 /* BODY */
-
-
+body {
+    font-family: var(--tekstFont);
+}
 
 
 /*MOBILE STYLING*/
-@media
-/* SIZES */
-/* COLOURS */
-/* TYPOGRAPHY */
+@media (max-width: px) {
+
+    /* SIZES */
+    :root {
+
+        --textSize: 16px;
+        --overskriftSize: 32px;
+        --underoverskriftSize: 20px;
+    }
+
+}
