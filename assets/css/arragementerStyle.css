@@ -23,7 +23,7 @@
 
 /* BODY */
 body {
-    font-size: var(--textSize);
+    font-family: var(--tekstFont);
 }
 
 
