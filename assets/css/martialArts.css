@@ -15,8 +15,7 @@
     --red: #ee202d;
     --white: #ffffff;
     --grey: #3c3c3c;
-
-
+    --lightGrey: #3c3c3c33;
     /* TYPOGRAPHY */
     --tekstFont: 'Montserrat', arial, sans-serif;
 }
@@ -25,25 +24,45 @@
 /* BODY */
 body {
     font-family: var(--tekstFont);
+    margin: 0;
 }
 
-main section article img {
-    width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
+.graduering {
+    display: flex;
+
 }
 
-main section article h1 {
-    font-size: var(--desktopOverskriftSize);
-    color: var(--black);
+.cards {
+    display: flex;
+    gap: 3rem;
 }
 
-.linje {
-    width: 50px;
-    border: 2px solid var(--red);
-    margin-top: 10px;
-    margin-bottom: 20px;
+.udstyr,
+.rutiner {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--lightGrey);
+
+    h3,
+    p,
+    ul {
+        color: var(--black);
+        padding: 1rem 3rem 1rem 3rem;
+    }
+
+    img {
+        width: 100%;
+
+    }
+
+}
+
+.tek {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+
 }
 
 /*MOBILE STYLING*/

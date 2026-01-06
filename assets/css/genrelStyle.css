@@ -29,6 +29,44 @@
 /* BODY */
 body {
     font-family: var(--tekstFont);
+    padding-top: 168px;
+
+    h1 {
+        font-size: var(--desktopOverskriftSize);
+    }
+
+    h2 {
+        font-size: var(--desktopUnderoverskriftSize);
+    }
+
+    .linje {
+        width: 500px;
+        border: 2px solid var(--red);
+        margin: 0;
+    }
+}
+
+main {
+    padding: 2rem 4rem 2rem 4rem;
+
+    section {
+
+        article {
+
+            h1 {
+                font-size: var(--desktopOverskriftSize);
+                color: var(--black);
+            }
+        }
+    }
+
+
+    .intro img {
+        width: 100%;
+        height: auto;
+        display: block;
+        object-fit: cover;
+    }
 }
 
 
@@ -38,10 +76,11 @@ header {
 
         background-color: var(--white);
         width: 100%;
-        /* position: fixed; */
+        height: 168px;
+        position: fixed;
         padding: 2rem 4rem 2rem 4rem;
-
         top: 0;
+        z-index: 1000;
         display: flex;
         justify-content: space-evenly;
 
