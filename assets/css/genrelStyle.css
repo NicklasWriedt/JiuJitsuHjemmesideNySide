@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
 /*DESKTOP STYLING*/
 
 :root {
@@ -33,15 +38,53 @@ header {
 
         background-color: var(--white);
         width: 100%;
-        position: fixed;
+        /* position: fixed; */
+        padding: 2rem 4rem 2rem 4rem;
+
         top: 0;
+        display: flex;
+        justify-content: space-evenly;
+
+        .fedOverskrift {
+            font-weight: bolder;
+        }
+
+        ul {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%;
+            padding: 0;
+        }
+
+        ul li {
+            list-style-type: none;
+            display: flex;
+            justify-content: space-between;
+
+        }
 
         ul li a {
             color: var(--red);
             text-decoration: none;
             padding: 14px 20px;
             display: block;
-            list-style: none;
+            padding: 0;
+
+        }
+
+        img {
+            height: 100px;
+            padding: 0;
+
+        }
+
+        .figurLogo {
+            padding-left: 2rem;
+        }
+
+        .logo {
+            padding-right: 2rem;
         }
 
         .dropdownKnap {
@@ -75,7 +118,7 @@ header {
         /* hovereffekter */
 
         .dropdownIndhold a:hover {
-            background-color: var(--lightGrey);
+            font-weight: bolder;
         }
 
 
@@ -84,15 +127,67 @@ header {
         }
 
         .dropdown:hover .dropdownKnap {
-            background-color: var(--lightGrey);
+            font-weight: bolder;
+        }
+
+        .link:hover {
+            font-weight: bolder;
         }
     }
 }
 
 
 /* FOOTER */
+footer {
+    background-color: var(--black);
+    color: var(--white);
+    padding: 2rem 4rem 2rem 4rem;
 
+    .fed {
+        font-weight: bolder;
+    }
 
+    .first {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        a {
+            color: var(--white);
+
+        }
+
+        img {
+            height: 100px;
+            border-radius: 50%;
+            border-style: solid;
+            border-color: var(--white);
+            border-width: 10px;
+        }
+
+        .logo {
+            align-self: center;
+        }
+
+        .socialeMedier {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column-reverse;
+
+            i {
+                font-size: 3rem;
+                padding: 1rem;
+            }
+        }
+    }
+
+    .second {
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+
+    }
+}
 
 
 
