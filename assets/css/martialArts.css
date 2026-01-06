@@ -27,7 +27,24 @@ body {
     font-family: var(--tekstFont);
 }
 
+main section article img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
 
+main section article h1 {
+    font-size: var(--desktopOverskriftSize);
+    color: var(--black);
+}
+
+.linje {
+    width: 50px;
+    border: 2px solid var(--red);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
 
 /*MOBILE STYLING*/
 @media (max-width: px) {
