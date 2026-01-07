@@ -29,22 +29,6 @@ body {
 }
 
 
-.cards {
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-
-    div {
-        background-color: var(--lightGrey);
-        padding: 1rem;
-        width: 400px;
-    }
-
-    img {
-        width: 400px;
-    }
-}
 
 /*MOBILE STYLING*/
 @media (max-width: px) {
