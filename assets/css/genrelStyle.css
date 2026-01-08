@@ -13,6 +13,7 @@
     --desktopUnderoverskriftSize: 24px;
     --space: 2rem 14rem 2rem 14rem;
     --spaceHeaderFooter: 2rem 4rem 2rem 4rem;
+    --sectionSpace: 2rem 0 2rem 0;
 
 
 
@@ -244,10 +245,11 @@ footer {
 
         --mobileOverskriftSize: 32px;
         --mobileUnderoverskriftSize: 20px;
+        --mobileSpaceHeaderFooter: 1rem 2rem 1rem 2rem;
     }
 
     body {
-
+        padding-top: 100px;
 
         h1 {
             font-size: var(--mobileOverskriftSize);
@@ -266,29 +268,54 @@ footer {
 
     /* HEADER */
 
-    .dropdownKnap,
-    .link,
-    .figurLogo {
-        display: none;
+    header {
+
+        .dropdownKnap,
+        .link,
+        .figurLogo {
+            display: none;
+        }
+
+
+        nav {
+
+            padding: var(--mobileSpaceHeaderFooter);
+            height: 100px;
+
+            img {
+                height: 50px;
+                width: auto;
+            }
+
+            ul {
+                justify-content: flex-start;
+            }
+        }
+
 
     }
 
 
     /* FOOTER */
-    footer .first {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 2rem;
-        text-align: center;
+    footer {
+        padding: var(--mobileSpaceHeaderFooter);
+
+        .first {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2rem;
+            text-align: center;
+        }
+
+        .socialeMedier {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+
+        .copyright p {
+            text-align: center;
+        }
     }
 
-    footer .socialeMedier {
-        display: flex;
-        justify-content: center;
-        gap: 2rem;
-    }
-
-    .copyright p {
-        text-align: center;
-    }
 }

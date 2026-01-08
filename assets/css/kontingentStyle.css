@@ -8,6 +8,7 @@
     --desktopOverskriftSize: 40px;
     --desktopUnderoverskriftSize: 24px;
     --space: 2rem 14rem 2rem 14rem;
+    --sectionSpace: 2rem 0 2rem 0;
 
 
 
@@ -63,16 +64,35 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
+    padding: var(--sectionSpace);
 }
 
 /*MOBILE STYLING*/
-@media (max-width: px) {
+@media (max-width: 402px) {
 
     /* SIZES */
     :root {
 
         --mobileOverskriftSize: 32px;
         --mobileUnderoverskriftSize: 20px;
+        --mobileSpace: 2rem;
     }
 
+    body {
+        h1 {
+            font-size: var(--mobileOverskriftSize);
+        }
+
+        h2 {
+            font-size: var(--desktopUnderoverskriftSize);
+        }
+    }
+
+    main {
+        padding: var(--mobileSpace);
+    }
+
+    .indhold {
+        grid-template-columns: 1fr;
+    }
 }

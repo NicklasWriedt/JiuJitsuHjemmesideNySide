@@ -8,6 +8,7 @@
     --desktopOverskriftSize: 40px;
     --desktopUnderoverskriftSize: 24px;
     --space: 2rem 14rem 2rem 14rem;
+    --sectionSpace: 2rem 0 2rem 0;
 
 
 
@@ -54,13 +55,18 @@ body {
 
 
 /*MOBILE STYLING*/
-@media (max-width: px) {
+@media (max-width: 402px) {
 
     /* SIZES */
     :root {
 
         --mobileOverskriftSize: 32px;
         --mobileUnderoverskriftSize: 20px;
+        --mobileSpace: 2rem;
     }
 
+
+    main {
+        padding: var(--mobileSpace);
+    }
 }
