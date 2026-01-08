@@ -25,19 +25,38 @@
 
 
 /* BODY */
-body {
-    font-family: var(--tekstFont);
-}
 
-section {
+main {
     padding: var(--space);
 }
+
+
+body {
+    font-family: var(--tekstFont);
+    color: var(--black);
+
+    p {
+        font-size: var(--textSize);
+    }
+
+    h1 {
+        font-size: var(--desktopOverskriftSize);
+    }
+
+    h2 {
+        font-size: var(--desktopUnderoverskriftSize);
+    }
+}
+
+
 
 .box {
     background-color: var(--lightGrey);
     padding: 2rem;
     border-radius: 20px;
 }
+
+
 
 .indhold {
 

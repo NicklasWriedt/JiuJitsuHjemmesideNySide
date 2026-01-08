@@ -27,6 +27,19 @@
 /* BODY */
 body {
     font-family: var(--tekstFont);
+    color: var(--black);
+
+    p {
+        font-size: var(--textSize);
+    }
+
+    h1 {
+        font-size: var(--desktopOverskriftSize);
+    }
+
+    h2 {
+        font-size: var(--desktopUnderoverskriftSize);
+    }
 }
 
 section {
@@ -117,7 +130,7 @@ section {
 }
 
 .tekstFelt {
-    height: 200px;
+    height: 150px;
     width: 100%;
     text-align: start;
 }
@@ -128,23 +141,64 @@ input {
 }
 
 .send {
-    grid-template-columns: 1fr 1fr;
     background-color: var(--black);
     color: var(--white);
     height: 2rem;
     width: 100%;
     border-radius: 5px;
+    border: none;
 }
 
 
 /*MOBILE STYLING*/
-@media (max-width: px) {
+@media (max-width: 402px) {
 
     /* SIZES */
     :root {
 
         --mobileOverskriftSize: 32px;
         --mobileUnderoverskriftSize: 20px;
+    }
+
+    section {
+        padding: 2rem;
+    }
+
+    .indhold {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+
+    .faq,
+    .kontaktformular {
+        grid-column: 1 / -1;
+    }
+
+    /* KONTAKTFORMULAR */
+    .kontaktformular .felter {
+        grid-template-columns: 1fr;
+    }
+
+
+    /* VENSKABSKLUBBER */
+    .venskabsklubber {
+        grid-column: 1 / -1;
+    }
+
+
+    .venskabsklubber .logoer>div {
+        gap: 1.5rem;
+
+        img {
+            height: 50px;
+            width: auto;
+        }
+    }
+
+    .venskabsklubber img {
+        height: auto;
+        width: 100%;
     }
 
 }
