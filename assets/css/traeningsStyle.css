@@ -123,14 +123,38 @@ body {
 
 }
 
+
 /*MOBILE STYLING*/
-@media (max-width: px) {
+
+@media (max-width: 800px) {
 
     /* SIZES */
     :root {
 
         --mobileOverskriftSize: 32px;
         --mobileUnderoverskriftSize: 20px;
+        --mobileSpace: 2rem;
     }
+
+    main {
+        padding: var(--mobileSpace);
+
+        .HDtraening {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .udstyr {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .udstyrrow {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+
 
 }
