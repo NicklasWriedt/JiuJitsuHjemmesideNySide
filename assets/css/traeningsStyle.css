@@ -7,6 +7,8 @@
     --textSize: 16px;
     --desktopOverskriftSize: 40px;
     --desktopUnderoverskriftSize: 24px;
+    --space: 2rem 14rem 2rem 14rem;
+    --sectionSpace: 2rem 0 2rem 0;
 
 
 
@@ -36,7 +38,7 @@ body {
 }
 
 .intro {
-    padding-left: 11rem;
+    padding-left: 14rem;
 
     h1 {
         font-size: var(--desktopOverskriftSize);
@@ -46,33 +48,32 @@ body {
 .HDtraening {
     display: flex;
     justify-content: space-evenly;
+    gap: 2rem;
+    padding: var(--space);
 }
 
 .HVtraening {
     display: flex;
     flex-direction: column;
-    max-width: 800px;
+
 
     h3 {
         font-size: var(--desktopUnderoverskriftSize);
         color: var(--red);
-        padding-left: 8rem;
         margin-bottom: 0%;
     }
 
     p {
         color: var(--black);
-        padding: 1rem 3rem 1rem 3rem;
-        padding-left: 8rem;
         line-height: 1.6;
         margin-top: 0%;
+        height: 200px;
     }
 
     video {
-        padding-left: 6rem;
-        margin: 2rem;
-        margin-top: 3rem;
-        margin-bottom: 4rem;
+        width: 100%;
+        height: 340px;
+
     }
 }
 
@@ -81,14 +82,18 @@ body {
     display: flex;
     flex-direction: column;
     background-color: var(--lightGrey);
-    padding: 2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+
+
 
 
     h3 {
         font-size: var(--desktopUnderoverskriftSize);
         color: var(--red);
-        padding-left: 8.5rem;
-        padding-bottom: 0.5rem;
+        padding-left: 14rem;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
         margin-bottom: 0%;
         margin-top: 0%;
     }
@@ -99,19 +104,21 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 22rem;
+    gap: 2rem;
+
+
 
     p {
         color: var(--black);
-        padding: 1rem 3rem 1rem 3rem;
-
+        padding-right: 14rem;
         line-height: 1.6;
         margin-top: 0%;
     }
 
     img {
         max-width: 100%;
-        padding-left: 8.5rem;
+        padding-left: 14rem;
+
     }
 
 }

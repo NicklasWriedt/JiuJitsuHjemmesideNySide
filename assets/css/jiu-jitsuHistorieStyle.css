@@ -7,6 +7,8 @@
     --textSize: 16px;
     --desktopOverskriftSize: 40px;
     --desktopUnderoverskriftSize: 24px;
+    --space: 2rem 14rem 2rem 14rem;
+    --sectionSpace: 2rem 0 2rem 0;
 
 
 
@@ -27,6 +29,11 @@
 body {
     font-family: var(--tekstFont);
 }
+
+main {
+    padding: var(--space);
+}
+
 
 
 .timeline {
@@ -109,6 +116,32 @@ body {
 
 .right .timeline-content::after {
     left: -20px;
+}
+
+/* MEDIA QUARIES 1300 PX */
+@media (max-width: 1050px) {
+    main {
+        padding: 2rem 10rem 2rem 10rem;
+    }
+}
+
+/* MEDIA QUARIES 700 PX */
+@media (max-width: 700px) {
+
+    main {
+        padding: 2rem 6rem 2rem 6rem;
+    }
+}
+
+/* MEDIA QUARIES 500 PX */
+@media (max-width: 500px) {
+    :root {
+        --mobileSpace: 2rem;
+    }
+
+    main {
+        padding: var(--mobileSpace);
+    }
 }
 
 
