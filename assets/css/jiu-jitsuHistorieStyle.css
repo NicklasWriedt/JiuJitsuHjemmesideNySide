@@ -149,12 +149,13 @@ main {
 
 /*MOBILE STYLING*/
 @media (max-width: 800px) {
-    .header {
-        grid-area: 1 / span 6;
+
+    main .timeline {
+        grid-template-columns: 1fr;
     }
 
-    .footer {
-        grid-area: 3 / span 6;
+    .timeline-content img {
+        display: none;
     }
 
     .timeline-content::after {
