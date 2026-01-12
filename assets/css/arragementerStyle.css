@@ -17,6 +17,7 @@
     --white: #ffffff;
     --grey: #3c3c3c;
     --lightGrey: #3c3c3c 20%;
+    --lighterGrey: #c1c1c1;
 
 
     /* TYPOGRAPHY */
@@ -34,7 +35,105 @@ body {
 
 main {
     padding: var(--space);
+    color: var(--black);
+
+    h1 {
+        font-size: var(--desktopOverskriftSize);
+    }
+    h2, h3, h4, h5 {
+        font-size: var(--desktopUnderoverskriftSize);
+    }
+    p{
+        font-size: var(--textSize);
+        font: var(--tekstFont);
+    }
+
 }
+ .event1 {
+        gap: 2rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: var(--lighterGrey);
+
+        p {
+            padding: 1rem;
+        }
+        h2 {
+            padding: 1rem;
+        }
+
+        img {
+            grid-column: 2/2;
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+            display: block;
+        }
+    }
+.event2 {
+        gap: 2rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: var(--lighterGrey);
+         p {
+            padding: 1rem;
+        }
+        h3 {
+            padding: 1rem;
+        }
+
+        img {
+            grid-column: 2/2;
+            width: 100%;
+            height: 100%;
+            object-fit:fill;
+            display: block;
+        }
+    }
+
+ .event3 {
+        gap: 2rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: var(--lighterGrey);
+        
+        p {
+            padding: 1rem;
+        }
+        h4 {
+            padding: 1rem;
+        }
+
+        img {
+            grid-column: 2/2;
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+            display: block;
+        }
+    }
+ .event4 {
+        gap: 2rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: var(--lighterGrey);
+        
+        p {
+            padding: 1rem;
+        }
+        h5 {
+            padding: 1rem;
+        }
+
+        img {
+            grid-column: 2/2;
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+            display: block;
+        }
+    }
+
 
 
 
@@ -43,8 +142,67 @@ main {
 @media (max-width: 1050px) {
     main {
         padding: 2rem 10rem 2rem 10rem;
+.event1 {
+        gap: 2rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: var(--lighterGrey);
+        
+        img {
+            grid-column: 1/1;
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+            display: block;
+        }
+    }
+.event2 {
+        gap: 2rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: var(--lighterGrey);
+
+        img {
+            grid-column: 1/1;
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+            display: block;
+        }
+    }
+
+ .event3 {
+        gap: 2rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: var(--lighterGrey);
+
+        img {
+            grid-column: 1/1;
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+            display: block;
+        }
+    }
+ .event4 {
+        gap: 2rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: var(--lighterGrey);
+
+        img {
+            grid-column: 1/1;
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+            display: block;
+        }
+    }
+
     }
 }
+
 
 /* MEDIA QUARIES 700 PX */
 @media (max-width: 700px) {
@@ -66,13 +224,32 @@ main {
 }
 
 /*MOBILE STYLING*/
-@media (max-width: px) {
+@media (max-width: 402px) {
 
     /* SIZES */
     :root {
 
         --mobileOverskriftSize: 32px;
         --mobileUnderoverskriftSize: 20px;
+    }
+    main {
+        .intro {
+            h1 {
+                font-size: var(--mobileOverskriftSize);
+            }
+        }
+        h2 {
+            font-size: var(--mobileUnderoverskriftSize);
+        }
+        h3 {
+            font-size: var(--mobileUnderoverskriftSize);
+        }
+        h4 {
+            font-size: var(--mobileUnderoverskriftSize);
+        }
+        h5 {
+            font-size: var(--mobileUnderoverskriftSize);
+        }
     }
 
 }
