@@ -35,9 +35,13 @@ body {
 
 main {
     padding: var(--space);
+
+    .intro {
+        img {
+            margin: 0 -14rem 0 -14rem;
+        }
+    }
 }
-
-
 
 .timeline {
     display: grid;
@@ -128,14 +132,6 @@ main {
 
 /* MEDIA QUARIES 700 PX */
 @media (max-width: 700px) {
-
-    main {
-        padding: 2rem 6rem 2rem 6rem;
-    }
-}
-
-/* MEDIA QUARIES 500 PX */
-@media (max-width: 500px) {
     :root {
         --mobileSpace: 2rem;
     }
@@ -143,6 +139,15 @@ main {
     main {
         padding: var(--mobileSpace);
     }
+
+    .intro {
+
+        img {
+            display: none;
+        }
+    }
+
+
 }
 
 
