@@ -3,85 +3,95 @@
 /*DESKTOP STYLING*/
 
 :root {
-    /* SIZES */
-    --textSize: 16px;
-    --desktopOverskriftSize: 40px;
-    --desktopUnderoverskriftSize: 24px;
-    --space: 2rem 14rem 2rem 14rem;
-    --sectionSpace: 2rem 0 2rem 0;
+  /* SIZES */
+  --textSize: 16px;
+  --desktopOverskriftSize: 40px;
+  --desktopUnderoverskriftSize: 24px;
+  --space: 2rem 14rem 2rem 14rem;
+  --sectionSpace: 2rem 0 2rem 0;
 
 
-    /* COLOURS */
-    --black: #1F1B1C;
-    --red: #ee202d;
-    --white: #ffffff;
-    --grey: #3c3c3c;
-    --lightGrey: #3c3c3c33;
+  /* COLOURS */
+  --black: #1F1B1C;
+  --red: #ee202d;
+  --white: #ffffff;
+  --grey: #3c3c3c;
+  --lightGrey: #3c3c3c33;
 
 
-    /* TYPOGRAPHY */
-    --tekstFont: 'Montserrat', arial, sans-serif;
+  /* TYPOGRAPHY */
+  --tekstFont: 'Montserrat', arial, sans-serif;
 }
 
 
 /* BODY */
 body {
-    font-family: var(--tekstFont);
-    background-image: url(/assets/img/Baggrundsbillede_1920.webp);
-    background-color: rgba(255, 255, 255, 0.95);
-    background-blend-mode: lighten;
+  font-family: var(--tekstFont);
+  background-image: url(/assets/img/Baggrundsbillede_1920.webp);
+  background-color: rgba(255, 255, 255, 0.95);
+  background-blend-mode: lighten;
 }
 
 
 main {
-    padding: var(--space);
-    color: var(--black);
+  padding: var(--space);
+  color: var(--black);
 
-    p{
-        font-size: var(--textSize);
-     }
-     h1{
-        font-size: var(--desktopOverskriftSize);
-     }
-     h2,h3,h4,h5,h6{
-        font-size: var(--desktopUnderoverskriftSize);
-        color: var(--red);
-     }
+  p {
+    font-size: var(--textSize);
+  }
 
-     .introTekst{
-        padding: 1rem 1.5rem 1rem 1.5rem;
-     }
+  h1 {
+    font-size: var(--desktopOverskriftSize);
+  }
 
-     .budoregler {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 50px;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 40px 20px;
-}
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: var(--desktopUnderoverskriftSize);
+    color: var(--red);
+  }
 
+  .introTekst {
+    padding-top: 2rem;
+    grid-column: 1 / -1;
+  }
 
-.budoregler-text ul {
-  margin-left: 20px;
-}
+  .budoregler {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
 
-.budoregler-text li {
-  margin-bottom: 10px;
-  line-height: 1.5;
-}
+  .budoregler {
+    grid-column: 1 / 2;
+  }
 
-/* BILLEDER */
-.budoregler-images {
-  display: grid;
-  gap: 25px;
-}
+  .budoregler-text ul {
+    margin-left: 20px;
+  }
 
-.budoregler-images img {
-  width: 50vh;
-  height: 30vh;
-  object-fit: fill;
-}
+  .budoregler-text li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+
+  /* BILLEDER */
+  .budoregler-images {
+    display: grid;
+    gap: 25px;
+    grid-column: 2 / -1;
+  }
+
+  .budoregler-images img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
 
 }
 
@@ -91,80 +101,53 @@ main {
 
 /* MEDIA QUARIES 1050 PX */
 @media (max-width: 1050px) {
-    main {
-        padding: 2rem 10rem 2rem 10rem;
-        grid-template-columns: 1fr 1fr;
-        gap: 0px;
+  main {
+    padding: 2rem 10rem 2rem 10rem;
+
+    img {
+      display: none;
     }
-    .budoregler {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 50px;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 40px 20px;
-}
-
-
-.budoregler-text ul {
-  margin-left: 20px;
-}
-
-.budoregler-text li {
-  margin-bottom: 10px;
-  line-height: 1.5;
-}
-
-/* BILLEDER */
-.budoregler-images {
-  display: none;
-  gap: 0px;
-}
-
-.budoregler-images img {
-  display: none;
-  
-}
-    
+  }
 }
 
 /* MEDIA QUARIES 700 PX */
 @media (max-width: 700px) {
 
-    main {
-        padding: 2rem 6rem 2rem 6rem;
-    }
+  main {
+    padding: 2rem 6rem 2rem 6rem;
+  }
 }
 
 /* MEDIA QUARIES 500 PX */
 @media (max-width: 500px) {
-    :root {
-        --mobileSpace: 2rem;
-    }
+  :root {
+    --mobileSpace: 2rem;
+  }
 
-    main {
-        padding: var(--mobileSpace);
+  main {
+    padding: var(--mobileSpace);
 
-        img {
-          display: none;
-        }
+    img {
+      display: none;
     }
+  }
 }
 
 
 /*MOBILE STYLING*/
 @media (max-width: 402px) {
 
-    /* SIZES */
-    :root {
+  /* SIZES */
+  :root {
 
-        --mobileOverskriftSize: 32px;
-        --mobileUnderoverskriftSize: 20px;
+    --mobileOverskriftSize: 32px;
+    --mobileUnderoverskriftSize: 20px;
+  }
+
+  main {
+    img {
+      display: none;
     }
-    main {
-      img {
-        display: none;  
-      };
-    }
+  }
 
 }
