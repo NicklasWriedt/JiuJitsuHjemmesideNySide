@@ -235,6 +235,20 @@ footer {
     }
 }
 
+/* MEDIA QUARIES 1300 PX */
+
+@media (max-width: 1300px) {
+
+    header {
+        nav {
+            ul {
+                gap: 2rem;
+            }
+        }
+    }
+
+}
+
 
 
 /* MEDIA QUARIES 1050 PX */
