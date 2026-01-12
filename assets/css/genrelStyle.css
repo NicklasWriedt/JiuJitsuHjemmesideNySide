@@ -456,9 +456,6 @@ footer {
 
     /* SIZES */
     :root {
-
-        --mobileOverskriftSize: 32px;
-        --mobileUnderoverskriftSize: 20px;
         --mobileSpaceHeaderFooter: 1rem;
     }
 
@@ -466,11 +463,11 @@ footer {
         padding-top: 100px;
 
         h1 {
-            font-size: var(--mobileOverskriftSize);
+            font-size: 32px;
         }
 
         h2 {
-            font-size: var(--mobileUnderoverskriftSize);
+            font-size: 20px;
         }
 
 
