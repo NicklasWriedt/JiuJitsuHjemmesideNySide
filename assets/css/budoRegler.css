@@ -7,6 +7,8 @@
     --textSize: 16px;
     --desktopOverskriftSize: 40px;
     --desktopUnderoverskriftSize: 24px;
+    --space: 2rem 14rem 2rem 14rem;
+    --sectionSpace: 2rem 0 2rem 0;
 
 
 
@@ -15,6 +17,7 @@
     --red: #ee202d;
     --white: #ffffff;
     --grey: #3c3c3c;
+    --lightGrey: #3c3c3c33;
 
 
     /* TYPOGRAPHY */
@@ -26,17 +29,97 @@
 body {
     font-family: var(--tekstFont);
 }
+main {
+    padding: var(--space);
+    color: var(--black);
+
+    hr {
+  border: none;
+  height: 3px;
+  width: 400px;
+  background-color: var(--red);
+  margin: 30px 0;
+}
+
+    p{
+        font-size: var(--textSize);
+     }
+     h1{
+        font-size: var(--desktopOverskriftSize);
+     }
+     h2,h3,h4,h5,h6{
+        font-size: var(--desktopUnderoverskriftSize);
+        color: var(--red);
+     }
+
+     .introTekst{
+        padding: 1rem 1.5rem 1rem 1.5rem;
+     }
+
+     .budoregler {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+
+.budoregler-text ul {
+  margin-left: 20px;
+}
+
+.budoregler-text li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+/* BILLEDER */
+.budoregler-images {
+  display: grid;
+  gap: 25px;
+}
+
+.budoregler-images img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+}
 
 
 
 /*MOBILE STYLING*/
-@media (max-width: px) {
+@media (max-width: 800px) {
 
     /* SIZES */
     :root {
 
         --mobileOverskriftSize: 32px;
         --mobileUnderoverskriftSize: 20px;
-    }
+  }
+  main {
+    padding: 20px;
+    h1{
+        font-size: var(--mobileOverskriftSize);
+     }
+     h1,h2,h3,h4,h5,h6{
+        font-size: var(--mobileUnderoverskriftSize);
+        color: var(--black);
+     }
+     .introTekst{
+        padding: 10px 20px 10px 20px;
+     }
+     .budoregler {
+  display: grid;
+  grid-template-columns: 2fr;
+  gap: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  }
 
+}
 }
