@@ -201,14 +201,20 @@ input {
 
 /* MEDIA QUARIES 700 PX */
 @media (max-width: 700px) {
+    :root {
 
-    main {
-        padding: 2rem 6rem 2rem 6rem;
-    }
+        --mobileOverskriftSize: 32px;
+        --mobileUnderoverskriftSize: 20px;
+        --mobileSpace: 2rem;
 
-    /* KONTAKTFORMULAR */
-    .kontaktformular .felter {
-        grid-template-columns: 1fr;
+        main {
+            padding: var(--mobileSpace);
+        }
+
+        /* KONTAKTFORMULAR */
+        .kontaktformular .felter {
+            grid-template-columns: 1fr;
+        }
     }
 }
 
@@ -221,14 +227,7 @@ input {
 
     /* SIZES */
     :root {
-
-        --mobileOverskriftSize: 32px;
-        --mobileUnderoverskriftSize: 20px;
         --mobileSpace: 2rem;
-    }
-
-    main {
-        padding: var(--mobileSpace);
     }
 
 

@@ -201,13 +201,19 @@ body {
 
 @media (max-width: 700px) {
 
+    :root {
+        --mobileSpace: 2rem;
+    }
+
     main {
-        padding: 2rem 6rem 2rem 6rem;
+        padding: var(--mobileSpace);
 
         .intro img {
-            margin: 0 -6rem 0 -6rem;
+            margin: 0 -2rem 0 -2rem;
         }
     }
+
+
 
     .cards {
 
@@ -271,18 +277,6 @@ body {
         --mobileSpace: 2rem;
 
     }
-
-
-    body {
-        h1 {
-            font-size: var(--mobileOverskriftSize);
-        }
-
-        h2 {
-            font-size: var(--mobileUnderoverskriftSize);
-        }
-    }
-
 
     .intro img {
         height: 200px !important;
