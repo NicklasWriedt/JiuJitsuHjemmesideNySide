@@ -214,7 +214,7 @@ main {
         --mobileUnderoverskriftSize: 20px;
     }
 
-    .navbar ul {
+    /* .navbar ul {
         display: none;
         flex-direction: column;
         background-color: white;
@@ -246,7 +246,7 @@ main {
 
     .dropdown.open .dropdownIndhold {
         display: block;
-    }
+    } */
 
 
     .intro {
