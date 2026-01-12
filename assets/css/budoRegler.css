@@ -78,9 +78,9 @@ main {
 }
 
 .budoregler-images img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
+  width: 50vh;
+  height: 30vh;
+  object-fit: fill;
 }
 
 }
@@ -89,10 +89,14 @@ main {
 
 
 
-/* MEDIA QUARIES 1300 PX */
+/* MEDIA QUARIES 1050 PX */
 @media (max-width: 1050px) {
     main {
         padding: 2rem 10rem 2rem 10rem;
+
+        img {
+          display: none;
+        }
     }
 }
 
@@ -112,6 +116,10 @@ main {
 
     main {
         padding: var(--mobileSpace);
+
+        img {
+          display: none;
+        }
     }
 }
 
@@ -124,6 +132,11 @@ main {
 
         --mobileOverskriftSize: 32px;
         --mobileUnderoverskriftSize: 20px;
+    }
+    main {
+      img {
+        display: none;  
+      };
     }
 
 }
