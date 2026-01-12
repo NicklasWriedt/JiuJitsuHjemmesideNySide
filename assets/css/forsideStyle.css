@@ -43,6 +43,7 @@ body {
 
     h1 {
         font-size: var(--desktopOverskriftSize);
+        padding-top: 2rem;
     }
 
     h2 {
