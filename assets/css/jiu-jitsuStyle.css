@@ -33,6 +33,14 @@ body {
     background-blend-mode: lighten;
 }
 
+.intro {
+    img {
+        width: 100vw;
+        height: auto;
+        margin: 0 -14rem 0 -14rem;
+    }
+}
+
 main {
     padding: var(--space);
 }
@@ -186,6 +194,12 @@ main {
 @media (max-width: 1050px) {
     main {
         padding: 2rem 10rem 2rem 10rem;
+    }
+
+    .intro {
+        img {
+            display: none;
+        }
     }
 
     .Hvadjiujitsu,
