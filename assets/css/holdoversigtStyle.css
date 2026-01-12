@@ -35,7 +35,28 @@ body {
 
 main {
     padding: var(--space);
+    gap: 2rem;
 }
+
+.hold {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+.tider {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 10px;
+
+
+}
+
+.tider .mobile {
+    display: none;
+}
+
 
 
 
@@ -44,6 +65,20 @@ main {
     main {
         padding: 2rem 10rem 2rem 10rem;
     }
+
+    .hold {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tider .desktop {
+        display: none;
+    }
+
+    .tider .mobile {
+        display: block;
+    }
+
 }
 
 /* MEDIA QUARIES 700 PX */
