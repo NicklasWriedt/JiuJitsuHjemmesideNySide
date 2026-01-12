@@ -339,6 +339,7 @@ footer {
                     padding: 30px;
                     margin: 0;
                 }
+
             }
 
             #sidebar-aktiv {
@@ -391,7 +392,6 @@ footer {
                 display: none;
                 position: relative;
                 width: 100%;
-
             }
 
             .dropdownIndholdMobil a {
@@ -407,6 +407,7 @@ footer {
 
             .toggle:checked~.dropdownIndholdMobil {
                 display: block;
+
             }
 
 
