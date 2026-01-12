@@ -27,6 +27,9 @@
 /* BODY */
 body {
     font-family: var(--tekstFont);
+    background-image: url(/assets/img/Baggrundsbillede_1920.webp);
+    background-color: rgba(255, 255, 255, 0.95);
+    background-blend-mode: lighten;
 }
 
 main {
