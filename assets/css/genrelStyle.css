@@ -182,17 +182,17 @@ header {
     }
 }
 /* Copyright */
-.copyright {
+.copyrightimg {
   position: relative;
   display: inline-block;
 }
 
-.copyright img {
+.copyrightimg img {
   display: block;
   width: 100%;
   height: auto;
 }
-.copyright::after {
+.copyrightimg::after {
   content: "© Hjørring Jiu-Jitsu klub";
   position: absolute;
   bottom: 8px;
