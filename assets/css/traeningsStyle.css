@@ -126,7 +126,7 @@ body {
 
 /*MOBILE STYLING*/
 
-@media (max-width: 800px) {
+@media (max-width: 1050px) {
 
     /* SIZES */
     :root {
@@ -138,6 +138,10 @@ body {
 
     main {
         padding: var(--mobileSpace);
+    }
+
+    .copyrightimg img {
+        display: none;
     }
 
     .intro {
