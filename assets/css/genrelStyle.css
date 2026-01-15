@@ -331,8 +331,6 @@ footer {
                 height: 100vh;
                 width: 300px;
                 overflow-y: auto;
-                flex-direction: column;
-                align-items: flex-end;
                 position: fixed;
                 top: 0;
                 right: -100%;
@@ -342,7 +340,15 @@ footer {
 
 
 
+                .menuListeMobil {
+                    display: flex;
+                    flex-direction: column;
+                    list-style: none;
+                    padding: 0;
+                    margin: 0;
 
+
+                }
 
 
                 .dropdownKnapMobil,
@@ -367,7 +373,7 @@ footer {
 
                 .dropdownKnapMobil,
                 .linkMobil {
-                    padding: 30px;
+                    padding: 10px 30px 10px 30px;
                     margin: 0;
                 }
 
