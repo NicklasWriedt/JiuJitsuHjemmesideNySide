@@ -172,7 +172,7 @@ body {
         }
     }
 
-    button {
+    .button {
         background-color: var(--red);
         color: var(--white);
         height: 2rem;
@@ -180,7 +180,8 @@ body {
         border-radius: 5px;
         font-weight: 600;
         grid-column: 2/-1;
-        margin-top: 1rem;
+        margin-top: 2rem;
+        padding: 0.5rem 1rem 0.5rem 1rem;
         border: none;
 
     }

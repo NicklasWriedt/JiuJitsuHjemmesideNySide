@@ -57,7 +57,7 @@ body {
     flex-direction: column;
 
 
-    h3 {
+    h2 {
         font-size: var(--desktopUnderoverskriftSize);
         color: var(--red);
         margin-bottom: 0%;
@@ -88,7 +88,7 @@ body {
 
 
 
-    h3 {
+    h2 {
         font-size: var(--desktopUnderoverskriftSize);
         color: var(--red);
         padding-left: 14rem;
