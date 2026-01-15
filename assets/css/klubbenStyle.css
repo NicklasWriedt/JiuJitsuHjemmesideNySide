@@ -175,7 +175,7 @@ main {
     }
 }
 
-/* .Omklubben {
+.Omklubben {
         grid-template-columns: 1fr;
 
         .otk {
@@ -195,7 +195,12 @@ main {
     .HKtekst {
         grid-template-columns: 1fr;
     }
+
+.intro .copyrightimg {
+    display: none;
 }
+
+
 
 /* MEDIA QUARIES 700 PX */
 @media (max-width: 700px) {

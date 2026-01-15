@@ -288,4 +288,17 @@ main {
         }
 
     }
+}/*MOBILE STYLING*/
+@media (max-width: 1050px) {
+
+    /* SIZES */
+    :root {
+
+        --mobileOverskriftSize: 32px;
+        --mobileUnderoverskriftSize: 20px;
+    }
+
+    .intro .copyrightimg {
+        display: none;
+    }
 }

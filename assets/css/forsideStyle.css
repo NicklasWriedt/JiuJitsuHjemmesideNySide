@@ -202,8 +202,8 @@ body {
     main {
         padding: 2rem 10rem 2rem 10rem;
 
-        .intro img {
-            margin: 0 -10rem 0 -10rem;
+        .copyrighthero {
+            display: none;
         }
     }
 
