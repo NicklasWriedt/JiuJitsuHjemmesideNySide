@@ -25,12 +25,7 @@
 
 
 /* BODY */
-body {
-    font-family: var(--tekstFont);
-    background-image: url(/assets/img/Baggrundsbillede_1920.webp);
-    background-color: rgba(255, 255, 255, 0.95);
-    background-blend-mode: lighten;
-}
+
 
 main {
     padding: var(--space);
@@ -176,25 +171,25 @@ main {
 }
 
 .Omklubben {
-        grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
 
-        .otk {
-            grid-column: span 1;
-        }
-
-        img {
-            width: 100%;
-            grid-column: span 1;
-        }
+    .otk {
+        grid-column: span 1;
     }
 
     img {
-        grid-column: 1 / -1;
+        width: 100%;
+        grid-column: span 1;
     }
+}
 
-    .HKtekst {
-        grid-template-columns: 1fr;
-    }
+img {
+    grid-column: 1 / -1;
+}
+
+.HKtekst {
+    grid-template-columns: 1fr;
+}
 
 .intro .copyrightimg {
     display: none;

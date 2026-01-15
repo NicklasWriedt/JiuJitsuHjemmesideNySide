@@ -26,12 +26,7 @@
 
 
 /* BODY */
-body {
-    font-family: var(--tekstFont);
-    background-image: url(/assets/img/Baggrundsbillede_1920.webp);
-    background-color: rgba(255, 255, 255, 0.95);
-    background-blend-mode: lighten;
-}
+
 
 main {
     padding: var(--space);
@@ -69,31 +64,33 @@ main {
         padding: 1rem;
     }
 
-    .event-img{
-  position: relative;
-  grid-column: 2 / 3;
-  width: 100%;
-  height: 100%;
-}
-    .event-img img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-    .event-img::after{
-  content: "© Hjørring Jiu-Jitsu Klub";
-  position: absolute;
-  bottom: 10px;
-  left: 12px;
-  font-size: 12px;
-  color: #fff;
-  background: rgba(0,0,0,0.65);
-  padding: 4px 8px;
-  border-radius: 4px;
-  pointer-events: none;
-}
-    
+    .event-img {
+        position: relative;
+        grid-column: 2 / 3;
+        width: 100%;
+        height: 100%;
+    }
+
+    .event-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    .event-img::after {
+        content: "© Hjørring Jiu-Jitsu Klub";
+        position: absolute;
+        bottom: 10px;
+        left: 12px;
+        font-size: 12px;
+        color: #fff;
+        background: rgba(0, 0, 0, 0.65);
+        padding: 4px 8px;
+        border-radius: 4px;
+        pointer-events: none;
+    }
+
 }
 
 .event2 {
@@ -110,30 +107,32 @@ main {
         padding: 1rem;
     }
 
-        .event-img{
-  position: relative;
-  grid-column: 2 / 3;
-  width: 100%;
-  height: 100%;
-}
-    .event-img img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-    .event-img::after{
-  content: "© Hjørring Jiu-Jitsu Klub";
-  position: absolute;
-  bottom: 10px;
-  left: 12px;
-  font-size: 12px;
-  color: #fff;
-  background: rgba(0,0,0,0.65);
-  padding: 4px 8px;
-  border-radius: 4px;
-  pointer-events: none;
-}
+    .event-img {
+        position: relative;
+        grid-column: 2 / 3;
+        width: 100%;
+        height: 100%;
+    }
+
+    .event-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    .event-img::after {
+        content: "© Hjørring Jiu-Jitsu Klub";
+        position: absolute;
+        bottom: 10px;
+        left: 12px;
+        font-size: 12px;
+        color: #fff;
+        background: rgba(0, 0, 0, 0.65);
+        padding: 4px 8px;
+        border-radius: 4px;
+        pointer-events: none;
+    }
 }
 
 .event3 {
@@ -150,30 +149,32 @@ main {
         padding: 1rem;
     }
 
-       .event-img{
-  position: relative;
-  grid-column: 2 / 3;
-  width: 100%;
-  height: 100%;
-}
-    .event-img img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-    .event-img::after{
-  content: "© Hjørring Jiu-Jitsu Klub";
-  position: absolute;
-  bottom: 10px;
-  left: 12px;
-  font-size: 12px;
-  color: #fff;
-  background: rgba(0,0,0,0.65);
-  padding: 4px 8px;
-  border-radius: 4px;
-  pointer-events: none;
-}
+    .event-img {
+        position: relative;
+        grid-column: 2 / 3;
+        width: 100%;
+        height: 100%;
+    }
+
+    .event-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    .event-img::after {
+        content: "© Hjørring Jiu-Jitsu Klub";
+        position: absolute;
+        bottom: 10px;
+        left: 12px;
+        font-size: 12px;
+        color: #fff;
+        background: rgba(0, 0, 0, 0.65);
+        padding: 4px 8px;
+        border-radius: 4px;
+        pointer-events: none;
+    }
 }
 
 .event4 {
@@ -190,31 +191,33 @@ main {
         padding: 1rem;
     }
 
-        .event-img{
-  position: relative;
-  grid-column: 2 / 3;
-  width: 100%;
-  height: 100%;
-}
-    .event-img img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-    .event-img::after{
-  content: "© Hjørring Jiu-Jitsu Klub";
-  position: absolute;
-  bottom: 10px;
-  left: 12px;
-  font-size: 12px;
-  color: #fff;
-  background: rgba(0,0,0,0.65);
-  padding: 4px 8px;
-  border-radius: 4px;
-  pointer-events: none;
-}
-    
+    .event-img {
+        position: relative;
+        grid-column: 2 / 3;
+        width: 100%;
+        height: 100%;
+    }
+
+    .event-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    .event-img::after {
+        content: "© Hjørring Jiu-Jitsu Klub";
+        position: absolute;
+        bottom: 10px;
+        left: 12px;
+        font-size: 12px;
+        color: #fff;
+        background: rgba(0, 0, 0, 0.65);
+        padding: 4px 8px;
+        border-radius: 4px;
+        pointer-events: none;
+    }
+
 }
 
 
@@ -233,9 +236,10 @@ main {
             grid-template-columns: 1fr;
             background-color: var(--lighterGrey);
 
-            .event-img{
-    grid-column: 1 / 2; /* fuld bredde */
-  }
+            .event-img {
+                grid-column: 1 / 2;
+                /* fuld bredde */
+            }
         }
 
         .event2 {
@@ -244,9 +248,10 @@ main {
             grid-template-columns: 1fr;
             background-color: var(--lighterGrey);
 
-            .event-img{
-    grid-column: 1 / 2; /* fuld bredde */
-  }
+            .event-img {
+                grid-column: 1 / 2;
+                /* fuld bredde */
+            }
         }
 
         .event3 {
@@ -255,9 +260,10 @@ main {
             grid-template-columns: 1fr;
             background-color: var(--lighterGrey);
 
-            .event-img{
-    grid-column: 1 / 2; /* fuld bredde */
-  }
+            .event-img {
+                grid-column: 1 / 2;
+                /* fuld bredde */
+            }
         }
 
         .event4 {
@@ -266,9 +272,10 @@ main {
             grid-template-columns: 1fr;
             background-color: var(--lighterGrey);
 
-            .event-img{
-    grid-column: 1 / 2; /* fuld bredde */
-  }
+            .event-img {
+                grid-column: 1 / 2;
+                /* fuld bredde */
+            }
         }
 
     }
