@@ -52,31 +52,31 @@ body {
 }
 
 
-.intro .copyrighthero{
-  position: relative;
+.intro .copyrighthero {
+    position: relative;
 }
 
 /* HERO image */
-.intro .copyrighthero img{
-  width: 100vw;
-  height: 300px;
-  object-fit: cover;
-  display: block;
-  margin: -2rem -14rem 0 -14rem;
+.intro .copyrighthero img {
+    width: 100vw;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    margin: -2rem -14rem 0 -14rem;
 }
 
 /* HERO copyright */
-.intro .copyrighthero::after{
-  content: "© Hjørring Jiu-Jitsu Klub";
-  position: absolute;
-  bottom: 10px;
-  left: 12px;
-  font-size: 12px;
-  color: #fff;
-  background: rgba(0,0,0,0.65);
-  padding: 4px 8px;
-  border-radius: 4px;
-  pointer-events: none;
+.intro .copyrighthero::after {
+    content: "© Hjørring Jiu-Jitsu Klub";
+    position: absolute;
+    bottom: 10px;
+    left: 12px;
+    font-size: 12px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.65);
+    padding: 4px 8px;
+    border-radius: 4px;
+    pointer-events: none;
 }
 
 .introTekst {
@@ -172,7 +172,7 @@ body {
         }
     }
 
-    button {
+    .button {
         background-color: var(--red);
         color: var(--white);
         height: 2rem;
@@ -180,7 +180,8 @@ body {
         border-radius: 5px;
         font-weight: 600;
         grid-column: 2/-1;
-        margin-top: 1rem;
+        margin-top: 2rem;
+        padding: 0.5rem 1rem 0.5rem 1rem;
         border: none;
 
     }
@@ -277,25 +278,26 @@ body {
 
             img {
                 padding: 0;
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    display: block;
+                width: 100%;
+                height: 200px;
+                object-fit: cover;
+                display: block;
             }
         }
 
 
     }
-      .events .event{
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1rem;
-  }
 
-  /* Billedet øverst */
-  .events .event .copyrightimg{
-    order: -1;
-  }
+    .events .event {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    /* Billedet øverst */
+    .events .event .copyrightimg {
+        order: -1;
+    }
 
 }
 

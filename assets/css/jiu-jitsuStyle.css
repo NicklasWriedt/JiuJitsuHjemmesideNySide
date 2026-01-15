@@ -138,7 +138,11 @@ main {
     img {
         width: 600px;
         height: 400px;
+    }
 
+    .skrift {
+        list-style: none;
+        font-weight: bold;
     }
 }
 
