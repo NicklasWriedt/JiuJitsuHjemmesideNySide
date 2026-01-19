@@ -26,7 +26,9 @@
 
 
 /* BODY */
-
+main {
+    padding: var(--space);
+}
 
 body {
     font-family: var(--tekstFont);
