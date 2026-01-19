@@ -106,7 +106,7 @@ body {
 
 /* FAQ */
 .faq {
-    grid-column: 1/2;
+    grid-column: 2/-1;
 
     h2 {
         padding-bottom: 2rem;
@@ -123,7 +123,7 @@ body {
 .kontaktformular {
     background-color: var(--lightGrey);
     padding: 2rem;
-    grid-column: 2/-1;
+    grid-column: 1/2;
     border-radius: 10px;
 
     .felter {
